@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registracija</title>
+<jsp:include page="/navigacija.jsp" />
+<script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+
+
+
+	<form style="width:400px; margin: 5% 30%" >
+		  <div class="form-group" >
+		    <label for="username">Korisnicko ime</label>
+		    <input type="text" class="form-control" id="usernameInput" aria-describedby="emailHelp" placeholder="Unesite korisnicko ime">
+		  </div>
+		  <div class="form-group">
+		    <label for="password">Lozinka</label>
+		    <input type="password" class="form-control" id="passwordInput" placeholder="Unesite lozinku">
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Email</label>
+		    <input type="email" class="form-control" id="emailInput" placeholder="Unesite email">
+		  </div>
+		  <div class="form-group">
+		    <label for="ime">Ime</label>
+		    <input type="text" class="form-control" id="imeInput" placeholder="Unesite ime">
+		  </div>
+		  <div class="form-group">
+		    <label for="prezime">Prezime</label>
+		    <input type="text" class="form-control" id="prezimeInput" placeholder="Unesite prezime">
+		  </div>
+		  <div class="form-group">
+		    <label for="telefon">Kontakt telefon</label>
+		    <input type="text" class="form-control" id="telefonInput" placeholder="Unesite kontakt telefon">
+		  </div>
+		  <button type="button" class="btn btn-primary" onClick="register()">Registruj se</button>
+	</form>
+	
+</body>
+</html>

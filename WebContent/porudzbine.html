@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<jsp:include page="/navigacija.jsp" />
+<script type="text/javascript" src="/PorucivanjeHrane/js/porudzbine.js"></script>
+</head>
+<body>
+<%@ page import="porucivanjeHrane.model.Korisnik" %>
+ <% Korisnik korisnik = (Korisnik)session.getAttribute("korisnik"); %>
+ <% if(korisnik != null){ %>
+		<input type="hidden" id="uloga" value="<%=korisnik.getUloga()%>">
+<% }%>
+
+<ul id="porudzbine"></ul>
+
+</body>
+</html>

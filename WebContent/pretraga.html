@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pretraga</title>
+</head>
+<jsp:include page="/navigacija.jsp" />
+
+<body>
+
+<br>
+	<form method="GET" action="/PorucivanjeHrane/pretrazi">
+	
+	<div class="form-row">
+	    <div class="form-group col-md-2">
+	      <input type="text" class="form-control" name="nazivRestorana" placeholder="Naziv..." style="margin:0% 20%">
+	    </div>
+   
+	    <div class="form-group col-md-2">
+		      <input type="text" class="form-control"  name="adresa" placeholder="Adresa..." style="margin:0% 25%">
+	    </div>
+	    
+	    <div class="form-group col-md-2">
+	      <select name="kategorija" class="form-control" style="margin:0% 30%">
+	        <option value="">Kategorija...</option>
+	      	<option value="Domaca_kuhinja">Domaca kuhinja</option>
+			<option value="Rostilj">Rostilj</option>
+			<option value="Kineski_restoran">Kineski restoran</option>
+			<option value="Indijski_restoran">Indijski restoran</option>
+			<option value="Poslasticarnica">Poslasticarnica</option>
+			<option value="Picerija">Picerija</option>
+	      </select>
+    	</div>
+    	
+  	</div>
+  	
+  	<br>
+  	
+  	<div class="form-row">
+	
+		<div class="form-group col-md-2">
+	      <input type="text" class="form-control" name="nazivArtikla" placeholder="Naziv..." style="margin:0% 20%">
+	    </div>
+	    
+	    <div class="form-group col-md-1 ">
+	      <input type="text" class="form-control" name="pocetnaCijena" placeholder="Od..." style="margin:0% 50%">
+	  	</div>
+	  	
+	  	<div class="form-group col-md-1 ">
+	      <input type="text" class="form-control" name="krajnjaCijena" placeholder="Do..." style="margin:0% 55%">
+	  	</div>
+	  	
+	  	<div class="form-group col-md-2">
+	      <select name="tip" class="form-control" style="margin:0% 30%">
+	        <option value = "">Tip..</option>
+	      	<option value = "Pice">Pice</option>
+	      	<option value = "Jelo">Jelo</option>
+	      </select>
+    	</div>
+    	
+    	<input type="submit" value="Pretrazi" style="margin:0% 25%">
+  	 	
+	</div> 
+	
+	</form>
+</body>
+</html>

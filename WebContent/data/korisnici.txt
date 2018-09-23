@@ -1,0 +1,4 @@
+baki;admin34;john;doe;1223-3446;admin@gmail.com;2018-09-12;Dostavljac;null;0;
+admin;admin;john;doe;1223-3446;admin@gmail.com;2018-09-12;Administrator;
+djoka;1234;john;doe;1223-3446;admin@gmail.com;2018-09-12;Kupac;3;0;0;
+marko;1234;john;doe;1223-3446;admin@gmail.com;2018-09-12;Kupac;0;0;0;

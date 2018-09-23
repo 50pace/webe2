@@ -1,0 +1,2 @@
+0;Rostilj;Belaj Bega 12;Rostilj;false;0;
+1;Kineski restoran;Kim Jong-un 666;Kineski_restoran;false;0;
